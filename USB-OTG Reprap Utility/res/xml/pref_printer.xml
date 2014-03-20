@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/printer_title" >
+        <ListPreference
+            android:defaultValue="10"
+            android:entries="@array/step_entries"
+            android:entryValues="@array/step_entryvalues"
+            android:key="step_list"
+            android:summary="@string/step_summary"
+            android:title="@string/step_title" />
+
+        <EditTextPreference
+            android:defaultValue="3000"
+            android:inputType="number"
+            android:key="xy_feedrate"
+            android:summary="@string/xy_feedrate_summary"
+            android:title="@string/xy_feedrate_title" />
+        <EditTextPreference
+            android:defaultValue="200"
+            android:inputType="number"
+            android:key="z_feedrate"
+            android:summary="@string/z_feedrate_summary"
+            android:title="@string/z_feedrate_title" />
+        <EditTextPreference
+            android:defaultValue="300"
+            android:inputType="number"
+            android:key="e_feedrate"
+            android:summary="@string/e_feedrate_summary"
+            android:title="@string/e_feedrate_title" />
+        <EditTextPreference
+            android:defaultValue="5"
+            android:inputType="number"
+            android:key="e_steps"
+            android:summary="@string/e_steps_summary"
+            android:title="@string/e_steps_title" />
+
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="invert_x"
+            android:title="@string/invert_x" />
+        <CheckBoxPreference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:defaultValue="false"
+            android:key="invert_y"
+            android:title="@string/invert_y" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pla_title" >
+        <EditTextPreference
+            android:defaultValue="185"
+            android:inputType="number"
+            android:key="pla_hotend_temp"
+            android:summary="@string/pla_hotend_summary"
+            android:title="@string/pla_hotend_title" />
+        <EditTextPreference
+            android:defaultValue="60"
+            android:inputType="number"
+            android:key="pla_bed_temp"
+            android:summary="@string/pla_bed_summary"
+            android:title="@string/pla_bed_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/abs_title" >
+        <EditTextPreference
+            android:defaultValue="230"
+            android:inputType="number"
+            android:key="abs_hotend_temp"
+            android:summary="@string/abs_hotend_summary"
+            android:title="@string/abs_hotend_title" />
+        <EditTextPreference
+            android:defaultValue="105"
+            android:inputType="number"
+            android:key="abs_bed_temp"
+            android:summary="@string/abs_bed_summary"
+            android:title="@string/abs_bed_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/buttons_title" >
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt0"
+            android:summary="@string/custom_bt0_summary"
+            android:title="@string/custom_bt0_title" />
+        <EditTextPreference
+            android:defaultValue="bt0"
+            android:inputType="text"
+            android:key="name_bt0"
+            android:summary="@string/name_bt0_summary"
+            android:title="@string/name_bt0_title" />
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt1"
+            android:summary="@string/custom_bt1_summary"
+            android:title="@string/custom_bt1_title" />
+        <EditTextPreference
+            android:defaultValue="bt1"
+            android:inputType="text"
+            android:key="name_bt1"
+            android:summary="@string/name_bt1_summary"
+            android:title="@string/name_bt1_title" />
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt2"
+            android:summary="@string/custom_bt2_summary"
+            android:title="@string/custom_bt2_title" />
+        <EditTextPreference
+            android:defaultValue="bt2"
+            android:inputType="text"
+            android:key="name_bt2"
+            android:summary="@string/name_bt2_summary"
+            android:title="@string/name_bt2_title" />
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt3"
+            android:summary="@string/custom_bt3_summary"
+            android:title="@string/custom_bt3_title" />
+        <EditTextPreference
+            android:defaultValue="bt3"
+            android:inputType="text"
+            android:key="name_bt3"
+            android:summary="@string/name_bt3_summary"
+            android:title="@string/name_bt3_title" />
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt4"
+            android:summary="@string/custom_bt4_summary"
+            android:title="@string/custom_bt4_title" />
+        <EditTextPreference
+            android:defaultValue="bt4"
+            android:inputType="text"
+            android:key="name_bt4"
+            android:summary="@string/name_bt4_summary"
+            android:title="@string/name_bt4_title" />
+        <EditTextPreference
+            android:defaultValue="set command"
+            android:inputType="textMultiLine"
+            android:key="custom_bt5"
+            android:summary="@string/custom_bt5_summary"
+            android:title="@string/custom_bt5_title" />
+        <EditTextPreference
+            android:defaultValue="bt5"
+            android:inputType="text"
+            android:key="name_bt5"
+            android:summary="@string/name_bt5_summary"
+            android:title="@string/name_bt5_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

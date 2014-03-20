@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<LinearLayout
+	    style="Theme.Holo.NoActionBar"
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	        
+		<LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	
+	        <TextView
+	           style="?android:attr/listSeparatorTextViewStyle"
+	           android:text="@string/eeprom_setting_title"/>
+	        
+	        <TextView
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="@string/tx_steps"
+	           android:layout_marginLeft="5dp"/>
+	         
+			<LinearLayout
+				android:orientation="horizontal"
+			  	android:layout_width="match_parent"
+			  	android:layout_height="wrap_content"
+			  	android:layout_marginLeft="5dp"
+			  	android:inputType="text">
+			    
+			  	<EditText
+			    	android:id="@+id/txStepsPermm"
+			      	android:layout_width="match_parent"
+			      	android:layout_height="wrap_content"
+			      	android:singleLine="true"
+			      	android:hint=""/>	
+			</LinearLayout>	      	   
+		</LinearLayout>
+	    
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+			<TextView
+	        	android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_maxfeedrate"
+	            android:layout_marginLeft="5dp"/>
+	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="5dp">
+		        
+		        <EditText
+		            android:id="@+id/txMaxFeedrate"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text" />
+		      </LinearLayout>   
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+			<TextView
+	        	android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_maxacceleration"
+	            android:layout_marginLeft="5dp"/>
+	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <EditText
+		            android:id="@+id/txMaxAcceleration"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text" />
+		    </LinearLayout>	      
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_retract"
+	            android:layout_marginLeft="5dip"/>
+	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <EditText
+		            android:id="@+id/txAcceleration"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text" />
+		    </LinearLayout>
+		</LinearLayout>
+	    	
+	    <LinearLayout
+	    	android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_pid"
+	            android:layout_marginLeft="5dp"/>
+	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <EditText
+		            android:id="@+id/txPidSettings"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text" />
+		      </LinearLayout>  
+		</LinearLayout>
+		
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_home_offset"
+	            android:layout_marginLeft="5dp"/>
+	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <EditText
+		            android:id="@+id/txHomingOffset"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text" />
+		    </LinearLayout>		  
+		</LinearLayout>
+		
+	    <TextView
+		    style="?android:attr/listSeparatorTextViewStyle"
+		    android:text="@string/advanced_vars_title"
+		    android:layout_marginTop="5dip"/>
+	    
+	    <LinearLayout
+	        android:orientation="vertical"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	       
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=""
+	            android:layout_marginLeft="5dp"/>
+	         
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_av1"
+	            android:layout_marginLeft="5dp"/>
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tx_av2"
+	            android:layout_marginLeft="5dp"/>
+	        	         
+		    <LinearLayout
+		        android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <EditText
+		            android:id="@+id/txAdvancedVars"
+		            android:layout_width="match_parent"
+		            android:layout_height="wrap_content"
+		            android:inputType="text"/>
+		    </LinearLayout>
+		      
+		    <LinearLayout
+		    	android:orientation="horizontal"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+		        
+		        <Button
+			    	android:id="@+id/btReload"
+			        android:layout_width="113dp"
+			        android:layout_height="55dp"
+			        android:background="@drawable/btn_background"
+			        android:gravity="center"
+			        android:text="@string/tx_reload"
+			        android:textColor="@color/monitoring_btn_text" 
+			        android:layout_marginLeft="5dp"
+			        android:textStyle="bold"/>
+			        
+		        <Button
+			    	android:id="@+id/btRestore"
+			        android:layout_width="113dp"
+			        android:layout_height="55dp"
+			        android:background="@drawable/btn_background"
+			        android:gravity="center"
+			        android:text="@string/tx_restore"
+			        android:textColor="@color/monitoring_btn_text" 
+			        android:layout_marginLeft="5dp"
+			        android:textStyle="bold"/>
+		         
+		        <Button
+					android:id="@+id/btSave"
+					android:layout_width="113dp"
+					android:layout_height="55dp"
+					android:background="@drawable/btn_background"
+					android:gravity="center"
+					android:text="@string/tx_save"
+					android:textColor="@color/monitoring_btn_text" 
+					android:layout_marginLeft="5dp"
+					android:textStyle="bold"/>	              
+		    </LinearLayout>  
+		      
+		    <EditText
+				android:id="@+id/etWrite1"
+				android:layout_width="0dp"
+				android:layout_height="0dip"
+				android:layout_weight="1"
+				android:singleLine="true" 
+				android:inputType="text">
+	        </EditText>    
+		</LinearLayout>   
+		
+		<ScrollView
+		      android:id="@+id/svText1"
+		      android:layout_width="fill_parent"
+		      android:layout_height="fill_parent" >
+		
+		      <LinearLayout
+		          android:id="@+id/LinearLayout"
+		          android:layout_width="fill_parent"
+		          android:layout_height="wrap_content"
+		          android:orientation="vertical" >
+		          
+		          <TextView
+		              android:id="@+id/tvSerial1"
+		              android:layout_width="match_parent"
+		              android:layout_height="wrap_content"
+		              android:typeface="monospace"
+		              android:text="" />
+		      </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>
+</ScrollView>

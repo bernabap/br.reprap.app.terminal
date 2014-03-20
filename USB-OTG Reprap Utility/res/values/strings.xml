@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">USB-OTG RepRap Utility</string>
+    <string name="button_write">Write</string>
+
+    <string name="terminal_setting_header_title">Serial Settings</string>
+    <string name="terminal_setting_header_summary"></string>
+
+    <string name="display_setting_header_title">Terminal Settings</string>
+    <string name="display_setting_header_summary"></string>
+    
+    <string name="printer_header_title">Controller Settings</string>
+    <string name="printer_header_summary"></string>
+
+    <string name="eeprom_header_title">EEPROM Settings</string>
+    <string name="eeprom_header_summary"></string>
+    
+    <string name="display_setting_title">Display Settings</string>
+
+    <string name="fontsize_title">Font size</string>
+    <string name="fontsize_summary">Select font size</string>
+
+    <string name="typeface_title">Typeface</string>
+    <string name="typeface_summary">Select typeface</string>
+
+    <string name="display_title">Display</string>
+    <string name="display_summary">Select char or dec, hex</string>
+
+    <string name="linefeedcode_setting_title">Linefeed Code Setting</string>
+    <string name="readlinefeedcode_title">Read Linefeed Code</string>
+    <string name="readlinefeedcode_summary">Select CR or LF, CR/LF</string>
+    <string name="writelinefeedcode_title">Write Linefeed Code</string>
+    <string name="writelinefeedcode_summary">Select CR or LF, CR/LF</string>
+
+    <string name="email_setting_title">Email Settings</string>
+    <string name="email_title">email</string>
+    <string name="email_summary"></string>
+
+    <string name="serial_setting_title">Serial Settings</string>   
+    <string name="eeprom_setting_title">EEPROM Settings</string>    
+    
+    <string name="printer_title">Printer Settings</string>
+    <string name="eeprom_title">EEPROM Settings</string>
+
+    <string name="baudrate_title">Baudrate</string>
+    <string name="baudrate_summary">baud rate</string>
+
+    <string name="databits_title">Data bits</string>
+    <string name="databits_summary">Data bits</string>
+
+    <string name="parity_title">Parity check</string>
+    <string name="parity_summary">Parity check</string>
+
+    <string name="stopbits_title">Stop bit</string>
+    <string name="stopbits_summary">Stop bit</string>
+
+    <string name="flowcontrol_title">Flow control</string>
+    <string name="flowcontrol_summary">Flow control</string>
+
+    <string name="break_title">Break</string>
+    <string name="break_summary">Break</string>
+    <string name="add_list">Add</string>
+
+    <string name="step_title">XYZ Step Size [mm]</string>
+    <string name="step_summary">set motors step size</string>
+    
+    <string name="hot_temp">%s</string>
+    <string name="bedtemp">%s</string>
+    
+    <string name="pla_title">PLA Temps</string>   
+    <string name="abs_title">ABS Temps</string>
+
+    <string name="pla_hotend_title">HotEnd</string>
+    <string name="pla_hotend_summary">set hotend temp for PLA</string>
+    
+    <string name="pla_bed_title">Bed</string>
+    <string name="pla_bed_summary">set bed temp for PLA</string>
+    
+    <string name="abs_hotend_title">HotEnd</string>
+    <string name="abs_hotend_summary">set hotend temp for ABS</string>
+    
+    <string name="abs_bed_title">Bed</string>
+    <string name="abs_bed_summary">set bed temp for ABS</string>
+    
+    <string name="xy_feedrate_title">XY Feedrate [mm/min]</string>
+    <string name="xy_feedrate_summary">set maximum speed for xy axis</string>
+    
+    <string name="z_feedrate_title">Z Feedrate [mm/min]</string>
+    <string name="z_feedrate_summary">set maximum speed for z axis</string>
+    
+    <string name="e_feedrate_title">E Feedrate [mm/min]</string>
+    <string name="e_feedrate_summary">extrude/retract speed</string>
+    
+    <string name="e_steps_title">E Step Size [mm]</string>
+    <string name="e_steps_summary">amount to extrude/retract</string>   
+    
+    <string name="maximum_feedrates_title">Maximum Feedrates</string>
+    <string name="maximum_feedrates_summary">maximum feedrates [mm/s]</string>
+    
+    <string name="maximum_acceleration_title">Maximum Acceleration</string>
+    <string name="maximum_acceleration_summary">maximum acceleration [mm/s²]</string>
+    
+    <string name="acceleration_title">Acceleration/Retract Acceleration</string>
+    <string name="acceleration_summary">acceleration [S] - retract acceleration [T]</string>
+    
+    <string name="retract_acceleration_title">Retract Acceleration</string>
+    <string name="retract_acceleration_summary">retraction acceleration</string>
+    
+    <string name="pid_settings_title">PID Settings</string>
+    <string name="pid_settings_summary">pid settings</string>
+    
+    <string name="homing_offset_title">Homing Offset</string>
+    <string name="homing_offset_summary">homing offset</string>
+    
+    <string name="minimum_feedrate_title">Minimum Feedrate</string>
+    <string name="minimum_feedrate_summary">minimum feedrate [mm/s]</string>
+    
+    <string name="minimum_travel_feedrate_title">Minimum Travel Feedrate</string>
+    <string name="minimum_travel_feedrate_summary">minimum travel feedrate [mm/s]</string>
+    
+    <string name="minimum_segement_time_title">Minimum Segement Time</string>
+    <string name="minimum_segement_time_summary">minimum segement time [ms]</string>
+    
+    <string name="maximum_xy_jerk_title">Maximum X-Y Jerk</string>
+    <string name="maximum_xy_jerk_summary">maximum x-y jerk [mm/s]</string>
+    
+    <string name="maximum_z_jerk_title">Maximum Z Jerk</string>
+    <string name="maximum_z_jerk_summary">maximum z jerk [mm/s]</string>
+    
+    <string name="advanced_vars_title">Advanced Variables</string>
+    <string name="buttons_title">Custom Buttons</string>
+    
+    <string name="custom_bt0_title">Button 0 </string>
+    <string name="custom_bt0_summary">set custom button0 command</string>
+    
+    <string name="name_bt0_title">Button 0 Name</string>
+    <string name="name_bt0_summary">set button0 name</string>
+    
+    <string name="custom_bt1_title">Button 1</string>
+    <string name="custom_bt1_summary">set custom button1 command</string>
+    
+    <string name="name_bt1_title">Button 1 Name</string>
+    <string name="name_bt1_summary">set button1 name</string>
+    
+    <string name="custom_bt2_title">Button 2</string>
+    <string name="custom_bt2_summary">set custom button2 command</string>
+    
+    <string name="name_bt2_title">Button 2 Name</string>
+    <string name="name_bt2_summary">set button2 name</string>
+    
+    <string name="custom_bt3_title">Button 3</string>
+    <string name="custom_bt3_summary">set custom button3 command</string>
+    
+    <string name="name_bt3_title">Button 3 Name</string>
+    <string name="name_bt3_summary">set button3 name</string>
+    
+    <string name="custom_bt4_title">Button 4</string>
+    <string name="custom_bt4_summary">set custom button4 command</string>
+    
+    <string name="name_bt4_title">Button 4 Name</string>
+    <string name="name_bt4_summary">set button4 name</string>
+    
+    <string name="custom_bt5_title">Button 5</string>
+    <string name="custom_bt5_summary">set custom button5 command</string>
+    
+    <string name="name_bt5_title">Button 5 Name</string>
+    <string name="name_bt5_summary">set button5 name</string>
+    
+    <string name="invert_x">Invert X axis</string>
+    <string name="invert_y">Invert Y axis</string>
+    
+    <string name="steps_permm">%s</string>
+    <string name="max_feedrate">%s</string>
+    <string name="max_acceleration">%s</string>
+    <string name="acceleration">%s</string>
+    <string name="pid_settings">%s</string>
+    <string name="homing_offset">%s</string>
+    <string name="advanced_vars">%s</string>
+    
+    <string name="custom_bt0">%s</string>
+    <string name="custom_bt1">%s</string>
+    <string name="custom_bt2">%s</string>
+    <string name="custom_bt3">%s</string>
+    <string name="custom_bt4">%s</string>
+    <string name="custom_bt5">%s</string>    
+    
+    <string name="tx_home_y">Y</string>
+    <string name="tx_home_x">X</string>
+    <string name="tx_home_z">Z</string>
+    <string name="tx_moff">Motors Off</string>
+    <string name="tx_ext">Ext</string>
+    <string name="tx_rev">Rev</string> 
+    <string name="tx_fon">Fan On</string>
+    <string name="tx_foff">Fan Off</string>
+    <string name="tx_ce">Cold Extrusion</string>
+    <string name="tx_hotend_off">Ext Off</string>
+    <string name="tx_bed_off">Bed Off</string>
+    <string name="tx_pla">PLA</string>
+    <string name="tx_abs">ABS</string>
+    
+    <string name="tx_steps">Steps per mm:</string>
+    <string name="tx_maxfeedrate">Maximum Feedrates [mm/s]:</string>
+    <string name="tx_maxacceleration">Maximum Acceleration [mm/s²]:</string>
+    <string name="tx_retract">Acceleration[S] and Retract Acceleration[T]:</string>
+    <string name="tx_pid">PID Settings:</string>
+    <string name="tx_home_offset">Homing Offset:</string>
+    <string name="tx_av1">Min Feedrate [S]:                      Max XY Jerk [X]:</string>
+    <string name="tx_av2">Min Segment [B]:                     Max E Jerk [E]:</string>
+    <string name="tx_reload">Reload</string>
+    <string name="tx_restore">Restore</string>
+    <string name="tx_save">Save</string>
+    <string name="custom_bt5">%s</string>  
+</resources>

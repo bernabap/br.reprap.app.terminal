@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.reprap.app.terminal"
+    android:versionCode="11"
+    android:versionName="1.1.7" >
+
+    <uses-sdk android:minSdkVersion="14"
+        android:targetSdkVersion="18"/>
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <application
+        android:icon="@drawable/icon9"
+        android:label="@string/app_name"
+        android:allowBackup="true">
+        
+        <activity
+            android:name="br.reprap.app.terminal.AndroidUSBSerialMonitorLite"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+            
+        </activity>
+        <activity android:name="br.reprap.app.terminal.AndroidUSBSerialMonitorLitePrefActivity"></activity>
+        <activity android:name="br.reprap.app.terminal.WordListActivity"></activity>
+        <activity android:name="br.reprap.app.terminal.EepromSettings"></activity>
+        </application>
+
+</manifest>

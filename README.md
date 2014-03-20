@@ -1,9 +1,8 @@
-br.reprap.app.terminal
+USB-OTG Reprap Utility
 ======================
 
-USB-OTG Reprap Utility
-
 This is my attempt to create an android app to control 3D printers over USB-OTG.
+This project would not be possible without the work done by ksksue!
 
 require **Physicaloid Library** project
 
